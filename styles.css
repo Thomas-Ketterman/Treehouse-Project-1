@@ -52,7 +52,7 @@ a:hover {
   transition: all 0.5s;
 }
 .nav a:hover {
-  color: white;
+  color: rgb(55, 160, 160);
 }
 
 header {
@@ -77,15 +77,15 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 25%;
+  border-radius: 50%;
   border: 3px solid white;
   transition: all 0.5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(10deg);
+  transform: scale(2) rotate(360deg);
 }
 .quote {
-  background: rgba(100, 100, 100, 0.6);
+  background: rgba(0, 100, 100, 0.6);
   text-align: center;
   margin-top: 25%;
   color: white;
@@ -100,7 +100,7 @@ header .profile-image:hover {
 }
 .location {
   background-color: #222;
-  color: yellow;
+  color: rgb(55, 160, 160);
 }
 .card {
   margin: 30px;
@@ -131,7 +131,7 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: rgb(55, 160, 160);
 }
 
 footer {
